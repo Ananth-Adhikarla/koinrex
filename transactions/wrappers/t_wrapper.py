@@ -59,9 +59,9 @@ def dash_address_current_transactions(dash_public_key):
 
 
 
-# api_key = '8763ec6f2f164f508feff8205b1e6b33'
-# priv_key = '1de5e4cdb0391d3a95dbb892b9c317202c0a263d8621daba0cf682ca5d11ed36'
-# to_address = 'LMU9ZqvhVDZd2mGCnYMvjRwLnKNPgiPoCG'
+# api_key = 'XXX'
+# priv_key = 'XXX'
+# to_address = 'XXX'
 
 
 # transaction_hash = simple_spend(from_privkey=priv_key, to_address=to_address, to_satoshis=50000, change_address=None, privkey_is_compressed=False, min_confirmations=0, api_key=api_key, coin_symbol='ltc')
@@ -75,7 +75,7 @@ def dash_address_current_transactions(dash_public_key):
 # def send_transaction(uid, private_key, amount, withdrawal_address, ticker):
 #     if amount == None:
 #         amount = 0
-#     api_key = '8763ec6f2f164f508feff8205b1e6b33' # TODO use a koinrex API 
+#     api_key = 'XXX' # TODO use a koinrex API 
 #     amount_in_sats = (float(amount) * 100000000)
 #     ticker = str(ticker.lower())
 #     # mining_fee = (amount * 0.005) # take 0.5% for now for the sake of argument until we work out how to calculate mining fee
@@ -83,7 +83,7 @@ def dash_address_current_transactions(dash_public_key):
 #     return transaction_hash
 
 
-# simple_spend(from_privkey='97838249d77bfa65f97be02b63fd1b7bb6a58474c7c22784a0da63993d1c2f90', to_address='C1rGdt7QEPGiwPMFhNKNhHmyoWpa5X92pn', to_satoshis=100, coin_symbol='ltc')
+# simple_spend(from_privkey='XXX', to_address='XXX', to_satoshis=100, coin_symbol='ltc')
 
 
 def send_transaction( private_key, amount, withdrawal_address, ticker):
@@ -102,14 +102,14 @@ def send_transaction( private_key, amount, withdrawal_address, ticker):
 
     return transaction_hash
 
-#print(send_transaction(1, '1de5e4cdb0391d3a95dbb892b9c317202c0a263d8621daba0cf682ca5d11ed36', 10000, 'LVuEP2jgj1YyFnneZFmJFyyB1Tj28yj41t', 'ltc')
+#print(send_transaction(1, 'XXX', 10000, 'XXX', 'ltc')
 
 
 
-# btc = '1CZ3CbtA3Rs3PcnK2PE9kSVDf85HWM9EcH'
-# dash = 'XhLHR1ryrbJV71NJqQKEqsp3DTHbaVfmps'
-# ltc = 'LVuEP2jgj1YyFnneZFmJFyyB1Tj28yj41t'
-# eth = '0xc3CaE45cD278F235fF5ff2D8f0e7c0971955c600'
+# btc = 'XXX'
+# dash = 'XXX'
+# ltc = 'XXX'
+# eth = 'XXX'
 
 
 # print(generate_new_bitcoin_address())
